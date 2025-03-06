@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "employee"
+    },
+    {
+      "id": "b9a9",
+      "name": "Varshu",
+      "email": "jo123@gmail.com",
+      "password": "123456",
+      "role": "employee"
+    },
+    {
+      "id": "488b",
+      "name": "Varshu",
+      "email": "jo1234@gmail.com",
+      "password": "654321",
+      "role": "employee"
+    },
+    {
+      "id": "fcaa",
+      "name": "Varshu",
+      "email": "jo1234@gmail.com",
+      "password": "654321",
+      "role": "employee"
+    },
+    {
+      "id": "1c69",
+      "name": "Varshu",
+      "email": "jo1234@gmail.com",
+      "password": "654321",
+      "role": "employee"
+    },
+    {
+      "id": "cc77",
+      "name": "M.Deeba Dharshini",
+      "email": "dharshini6677143@gmail.com",
+      "password": "123456",
+      "role": "employee"
+    },
+    {
+      "id": "5f8e",
+      "name": "M.Deeba Dharshini",
+      "email": "dharshini6677143@gmail.com",
+      "password": "123456",
+      "role": "employee"
+    },
+    {
+      "id": "c585",
+      "name": "Varshu",
+      "email": "jo12345@gmail.com",
+      "password": "987654",
+      "role": "employee"
+    },
+    {
+      "id": "aac0",
+      "name": "deeba",
+      "email": "dd107@gmail.com",
+      "password": "123456",
+      "role": "employee"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "59d4",
+      "leaveType": "Casual Leave",
+      "startDate": "2025-03-20",
+      "endDate": "2025-04-05",
+      "reason": "Pending",
+      "userId": "1",
+      "status": "Pending"
+    },
+    {
+      "id": "eb8e",
+      "leaveType": "Sick Leave",
+      "startDate": "2025-03-13",
+      "endDate": "2025-03-13",
+      "reason": "fever",
+      "status": "Pending"
+    }
+  ]
+}

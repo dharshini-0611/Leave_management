@@ -1,0 +1,68 @@
+.leave-list-container {
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .leave-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .leave-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .leave-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .status.pending {
+    background: orange;
+    color: white;
+  }
+  
+  .status.approved {
+    background: green;
+    color: white;
+  }
+  
+  .status.rejected {
+    background: red;
+    color: white;
+  }
+  
+  

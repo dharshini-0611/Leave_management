@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-evenly; /* Spaced evenly */
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(90deg, hsl(211, 58%, 65%), #00c6ff);
+  padding: 15px 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Sticks navbar to the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;/* Ensures navbar is always on top */
+  gap: 30px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+/* Button Styling */
+button {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  padding: 6px 12px; /* Small but readable */
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+  color: white;
+  transform: scale(1.05);
+}

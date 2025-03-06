@@ -1,0 +1,30 @@
+/* Center the entire leave form container */
+.leave-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+  width: 100vw;  /* Full width */
+  background:#4b90a3; /* Light background */
+  color:rgb(15, 119, 133);
+}
+
+/* Centering form wrapper */
+.leave-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Styling the form */
+.leave-form-box {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeIn 0.8s ease-in-out;
+}
